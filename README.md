@@ -94,10 +94,5 @@ This project is a full-featured responsive portfolio showcasing various sections
 - The project uses relative imports for assets; verify paths if adding new assets.
 - ESLint and other linting tools may require add-ons for full React and Tailwind CSS support.
 
-## License
-
-This project is open source and available under the MIT License.
-
----
 
 Thank you for viewing! Feel free to contribute or reach out via GitHub.
