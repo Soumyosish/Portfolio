@@ -41,7 +41,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
         >
-          <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight break-words whitespace-normal w-full">
+          <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl mb-6 leading-tight break-words whitespace-normal w-full">
             <span
               ref={nameRef}
               style={{
