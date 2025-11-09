@@ -10,6 +10,7 @@ import guess from "../assets/guess.png";
 import jobsy from "../assets/jobsy.png";
 import mazesolver from "../assets/mazesolver.png";
 import candy from "../assets/candy.png";
+import tommy from "../assets/tommy.png"
 
 const projects = [
   {
@@ -57,6 +58,15 @@ const projects = [
     link: "https://bhul-bhulaya.vercel.app/",
     tags: ["HTML", "Tailwind CSS", "JS", "Express", "Node.js"],
     github: "https://github.com/Soumyosish/BhulBhulaya",
+    shadowColor: "rgba(59, 130, 246, 1)",
+  },
+  {
+    name: "Virtual AI Assistant",
+    desc: "A modern, interactive voice-command virtual assistant to help with tasks like searching the web, opening websites, telling jokes, and more, all through a sleek glassmorphism UI.",
+    image: tommy,
+    link: "https://github.com/Soumyosish/Tommy",
+    tags: ["React", "Tailwind CSS", "JS", "Express", "Node.js"],
+    github: "https://github.com/Soumyosish/Tommy",
     shadowColor: "rgba(59, 130, 246, 1)",
   },
   {

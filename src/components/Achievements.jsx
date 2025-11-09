@@ -3,9 +3,19 @@ import { motion } from "framer-motion";
 import React from "react";
 const achievements = [
   {
+    title: "Secured super Contributor holopin badge in hacktoberfest 2025",
+    desc: "With enhanced contributions to open source projects during Hacktoberfest 2025, I earned the prestigious Super Contributor Holopin badge.",
+    link: "https://holopin.me/soumyosish",
+  },
+  {
+    title: "Top 15 in GSSoC 2025",
+    desc: "Enriched my knowledge and skills through learning and contributing to open source projects, securing a position in the top 15 participants of GSSoC 2025.",
+    link: "https://drive.google.com/file/d/1d4flDUQT1xPeNgo1ikFfkC7w5q_jz33W/view?usp=sharing",
+  },
+  {
     title: "4th Rank in OSCI Competition",
     desc: "Achieved 4th place in the Open Source Connect India 2025 with consistent debugging and exploring newer technologies.",
-    link: "https://www.osconnect.org/leaderboard",
+    link: "https://drive.google.com/file/d/1-UHhprULvpoCJ40oh9RkrSdViOCbAoqK/view?usp=sharing",
   },
   {
     title: "Social Summer of Code ",

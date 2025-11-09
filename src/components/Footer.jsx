@@ -46,6 +46,10 @@ export default function Footer() {
             label="LinkedIn"
           />
           <FooterLink
+            href="https://www.hackerrank.com/profile/soumyosishpal_11"
+            label="Hackerrank"
+          />
+          <FooterLink
             href="https://leetcode.com/u/user2431m/"
             label="LeetCode"
           />
