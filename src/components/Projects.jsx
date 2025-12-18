@@ -11,6 +11,7 @@ import jobsy from "../assets/jobsy.png";
 import mazesolver from "../assets/mazesolver.png";
 import candy from "../assets/candy.png";
 import tommy from "../assets/tommy.png"
+import hollistic from '../assets/hollistic.png'
 
 const projects = [
   {
@@ -68,6 +69,29 @@ const projects = [
     tags: ["React", "Tailwind CSS", "JS", "Express", "Node.js"],
     github: "https://github.com/Soumyosish/Tommy",
     shadowColor: "rgba(59, 130, 246, 1)",
+  },
+  {
+    name: "Hollistic Wellness Monitor",
+    desc: "Holistic Wellness Monitor is a comprehensive, full-stack health and fitness tracking application designed to help users monitor their physical well-being.",
+    image: hollistic,
+    link: "https://github.com/Soumyosish/Holistic-Wellness-Monitor",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Nodemailer",
+      "Google Auth",
+      "Recharts",
+      "Lucide",
+      "Gemini API",
+      "Responsive Design",
+      "Full Stack",
+    ],
+    github: "https://github.com/Soumyosish/Holistic-Wellness-Monitor",
+    shadowColor: "rgba(255, 255, 255, 0.7)",
   },
   {
     name: "Jobsy",
