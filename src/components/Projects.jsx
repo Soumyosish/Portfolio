@@ -12,6 +12,7 @@ import mazesolver from "../assets/mazesolver.png";
 import candy from "../assets/candy.png";
 import tommy from "../assets/tommy.png"
 import hollistic from '../assets/hollistic.png'
+import gateway from '../assets/gateway.png'
 
 const projects = [
   {
@@ -111,6 +112,20 @@ const projects = [
       "JWT",
     ],
     github: "https://github.com/Soumyosish/JobSY",
+    shadowColor: "rgba(255, 255, 180, 1)",
+  },
+  {
+    name: "Gateway To the East",
+    desc: "Gateway to the East describes the tourism for Bengal with animated cards, destination highlights, and smooth section navigation making it align with the rich culture and diversity of the state attracting various tourists from all over the world",
+    image: gateway,
+    link: "https://gateway-to-the-east.vercel.app/",
+    tags: [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "JS"
+    ],
+    github: "https://github.com/Soumyosish/Gateway-to-the-East",
     shadowColor: "rgba(255, 255, 180, 1)",
   },
   {

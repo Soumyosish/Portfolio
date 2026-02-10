@@ -26,10 +26,10 @@ export default function Footer() {
           className="text-white text-sm md:text-base font-medium"
         >
           <a
-            href="mailto:soumyosishpal.108@gmail.com"
+            href="mailto:soumyosishofficial1@gmail.com"
             className="hover:underline"
           >
-            soumyosishpal.108@gmail.com
+            soumyosishofficial1@gmail.com
           </a>
         </motion.div>
 
