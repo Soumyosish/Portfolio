@@ -13,7 +13,7 @@ import candy from "../assets/candy.png";
 import tommy from "../assets/tommy.png"
 import hollistic from '../assets/hollistic.png'
 import gateway from '../assets/gateway.png'
-
+import coffee from '../assets/coffee.png'
 const projects = [
   {
     name: "Alpha Safari",
@@ -113,6 +113,20 @@ const projects = [
     ],
     github: "https://github.com/Soumyosish/JobSY",
     shadowColor: "rgba(255, 255, 180, 1)",
+  },
+  {
+    name: "Espresso Moment",
+    desc: "A modern, responsive coffee shop website showcasing premium coffee offerings, gallery, and contact features. Built with clean HTML, CSS, and JavaScript. Expressing the love of people towards coffee depicting their part of everyday's life reluctantly impressive with rich hopes among everyone.",
+    image: coffee,
+    link: "https://expresso-moment.vercel.app/",
+    tags: [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "JS"
+    ],
+    github: "https://github.com/Soumyosish/Expresso-Moment",
+    shadowColor: "rgba(255, 210, 150, 1)",
   },
   {
     name: "Gateway To the East",
