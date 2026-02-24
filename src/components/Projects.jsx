@@ -14,6 +14,7 @@ import tommy from "../assets/tommy.png"
 import hollistic from '../assets/hollistic.png'
 import gateway from '../assets/gateway.png'
 import coffee from '../assets/coffee.png'
+import api_react from '../assets/api_react.png'
 const projects = [
   {
     name: "Alpha Safari",
@@ -113,6 +114,21 @@ const projects = [
     ],
     github: "https://github.com/Soumyosish/JobSY",
     shadowColor: "rgba(255, 255, 180, 1)",
+  },
+  {
+    name: "API React",
+    desc: "A modern React SPA built with Vite that demonstrates real-world API integration, client-side routing, reusable components, and polished UI patterns, showcasing best practices for building scalable React applications.",
+    image: api_react,
+    link: "https://api-react-nine-iota.vercel.app/",
+    tags: [
+      "React",
+      "BootStrap",
+      "Responsive Design",
+      "React Icons",
+      'APIs'
+    ],
+    github: "https://github.com/Soumyosish/API-React",
+    shadowColor: "rgba(255, 255, 255, 0.7)",
   },
   {
     name: "Espresso Moment",
