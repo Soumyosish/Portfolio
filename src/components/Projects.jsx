@@ -15,6 +15,7 @@ import hollistic from '../assets/hollistic.png'
 import gateway from '../assets/gateway.png'
 import coffee from '../assets/coffee.png'
 import api_react from '../assets/api_react.png'
+import homedine from '../assets/homedine.png'
 const projects = [
   {
     name: "Alpha Safari",
@@ -35,6 +36,27 @@ const projects = [
     ],
     github: "https://github.com/Soumyosish/AlphaSafari",
     shadowColor: "rgba(34,197,94,0.7)",
+  },
+  {
+    name: "Home Dine",
+    desc: "HomeDine is a full-stack ecommerce web application focused on quality kitchen and home products for every home.",
+    image: homedine,
+    link: "http://home-dine.vercel.app/",
+    tags: [
+      "React",
+      "React Router",
+      "Context API",
+      "Axios",
+      "Express",
+      "MongoDB",
+      "TailwindCSS",
+      "JWT",
+      "Nodemailer",
+      "Responsive Design",
+      "Full Stack",
+    ],
+    github: "https://github.com/Soumyosish/HomeDine",
+    shadowColor: "rgba(255, 253, 208, 1)",
   },
   {
     name: "Bengal Fusion",
