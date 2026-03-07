@@ -59,6 +59,15 @@ const projects = [
     shadowColor: "rgba(255, 253, 208, 1)",
   },
   {
+    name: "Maze Solver Visualizer",
+    desc: "A modern, interactive maze generator and pathfinding visualizer to Explore classic algorithms with smooth animations, a glassmorphism UI, and a live complexity panel.",
+    image: mazesolver,
+    link: "https://bhul-bhulaya.vercel.app/",
+    tags: ["HTML", "Tailwind CSS", "JS", "Express", "Node.js"],
+    github: "https://github.com/Soumyosish/BhulBhulaya",
+    shadowColor: "rgba(59, 130, 246, 1)",
+  },
+  {
     name: "Bengal Fusion",
     desc: "Bengal Fusion is a React web application that showcases the rich culture, art, festivals, cuisine, and tourist destinations of West Bengal, India.",
     image: bengalfusion,
@@ -75,15 +84,6 @@ const projects = [
     ],
     github: "https://github.com/Soumyosish/BengalFusion",
     shadowColor: "rgba(255, 253, 208, 1)",
-  },
-  {
-    name: "Maze Solver Visualizer",
-    desc: "A modern, interactive maze generator and pathfinding visualizer to Explore classic algorithms with smooth animations, a glassmorphism UI, and a live complexity panel.",
-    image: mazesolver,
-    link: "https://bhul-bhulaya.vercel.app/",
-    tags: ["HTML", "Tailwind CSS", "JS", "Express", "Node.js"],
-    github: "https://github.com/Soumyosish/BhulBhulaya",
-    shadowColor: "rgba(59, 130, 246, 1)",
   },
   {
     name: "Virtual AI Assistant",
