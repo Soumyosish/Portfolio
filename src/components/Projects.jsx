@@ -68,8 +68,23 @@ const projects = [
     shadowColor: "rgba(59, 130, 246, 1)",
   },
   {
+    name: "API React",
+    desc: "A modern React SPA built with Vite that demonstrates real-world API integration, client-side routing, reusable components, and polished UI patterns, showcasing best practices for building scalable React applications.",
+    image: api_react,
+    link: "https://api-react-nine-iota.vercel.app/",
+    tags: [
+      "React",
+      "BootStrap",
+      "Responsive Design",
+      "React Icons",
+      'APIs'
+    ],
+    github: "https://github.com/Soumyosish/API-React",
+    shadowColor: "rgba(255, 255, 255, 0.7)",
+  },
+  {
     name: "Bengal Fusion",
-    desc: "Bengal Fusion is a React web application that showcases the rich culture, art, festivals, cuisine, and tourist destinations of West Bengal, India.",
+    desc: "Bengal Fusion is a web application that showcases the rich culture, art, festivals, tourist destinations through vibrant design, smooth animations & interactive elements.",
     image: bengalfusion,
     link: "https://bengalfusion.vercel.app/",
     tags: [
@@ -118,41 +133,6 @@ const projects = [
     shadowColor: "rgba(255, 255, 255, 0.7)",
   },
   {
-    name: "Jobsy",
-    desc: "Jobsy is a simple yet powerful web application designed to help users efficiently track and manage their job application journey from the initial application to receive an offer.",
-    image: jobsy,
-    link: "https://jobsy-rose.vercel.app/",
-    tags: [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Framer Motion",
-      "Responsive Design",
-      "Full Stack",
-      "Nodemailer",
-      "JWT",
-    ],
-    github: "https://github.com/Soumyosish/JobSY",
-    shadowColor: "rgba(255, 255, 180, 1)",
-  },
-  {
-    name: "API React",
-    desc: "A modern React SPA built with Vite that demonstrates real-world API integration, client-side routing, reusable components, and polished UI patterns, showcasing best practices for building scalable React applications.",
-    image: api_react,
-    link: "https://api-react-nine-iota.vercel.app/",
-    tags: [
-      "React",
-      "BootStrap",
-      "Responsive Design",
-      "React Icons",
-      'APIs'
-    ],
-    github: "https://github.com/Soumyosish/API-React",
-    shadowColor: "rgba(255, 255, 255, 0.7)",
-  },
-  {
     name: "Espresso Moment",
     desc: "A modern, responsive coffee shop website showcasing premium coffee offerings, gallery, and contact features. Built with clean HTML, CSS, and JavaScript. Expressing the love of people towards coffee depicting their part of everyday's life reluctantly impressive with rich hopes among everyone.",
     image: coffee,
@@ -178,6 +158,26 @@ const projects = [
       "JS"
     ],
     github: "https://github.com/Soumyosish/Gateway-to-the-East",
+    shadowColor: "rgba(255, 255, 180, 1)",
+  },
+  {
+    name: "Jobsy",
+    desc: "Jobsy is a simple yet powerful web application designed to help users efficiently track and manage their job application journey from the initial application to receive an offer.",
+    image: jobsy,
+    link: "https://jobsy-rose.vercel.app/",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Framer Motion",
+      "Responsive Design",
+      "Full Stack",
+      "Nodemailer",
+      "JWT",
+    ],
+    github: "https://github.com/Soumyosish/JobSY",
     shadowColor: "rgba(255, 255, 180, 1)",
   },
   {
