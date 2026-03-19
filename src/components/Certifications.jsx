@@ -47,7 +47,7 @@ export default function Certifications() {
         initial={{ opacity: 0, y: -28 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="text-lg md:text-xl font-black text-white mb-8 text-left"
+        className="text-lg md:text-xl font-black text-white mb-8 text-center"
       >
         Certifications
       </motion.h2>

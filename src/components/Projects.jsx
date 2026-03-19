@@ -225,20 +225,20 @@ export default function Projects() {
   return (
     <section
       id="3"
-      className="w-full min-h-screen py-20 flex flex-col items-center"
+      className="w-full min-h-screen py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center"
     >
       {/* Heading and subtitle */}
       <motion.h2
         initial={{ opacity: 0, y: -28 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="text-transparent bg-gradient-to-r from-orange-400 via-teal-300 to-yellow-200 bg-clip-text font-extrabold text-3xl mb-6 text-center select-none"
+        className="text-transparent bg-gradient-to-r from-orange-400 via-teal-300 to-yellow-200 bg-clip-text font-extrabold text-2xl sm:text-3xl mb-4 sm:mb-6 text-center select-none"
       >
         Projects
       </motion.h2>
       <br />
       <br />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 w-full max-w-6xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 sm:gap-x-8 md:gap-x-10 lg:gap-x-12 gap-y-10 sm:gap-y-12 md:gap-y-14 w-full max-w-6xl">
         {displayProjects.map((project) => (
           <motion.div
             key={project.name}
@@ -250,31 +250,31 @@ export default function Projects() {
               boxShadow: `0 0 15px 5px ${project.shadowColor}, 0 8px 32px 4px rgba(98,74,205, 0.2)`,
             }}
           >
-            {/* Project Cover - increased image height */}
-            <div className="relative w-full bg-[#232347] flex items-center justify-center overflow-hidden">
+            {/* Project Cover */}
+            <div className="relative w-full bg-[#232347]">
               <img
                 src={project.image}
                 alt={project.name}
-                className="w-full h-full object-cover rounded-t-2xl"
+                className="w-full h-auto block rounded-t-2xl"
               />
             </div>
             {/* Project Info */}
-            <div className="p-8 flex flex-col flex-grow">
+            <div className="p-5 sm:p-6 md:p-8 flex flex-col flex-grow">
               {/* Title + GitHub */}
-              <div className="flex items-center justify-between mb-2">
-                <h3 className="text-white font-bold text-xl md:text-2xl">
+              <div className="flex items-center justify-between mb-2 gap-3">
+                <h3 className="text-white font-bold text-lg sm:text-xl md:text-2xl leading-snug">
                   {project.name}
                 </h3>
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-500 transition text-white text-xl"
+                  className="hover:text-blue-500 transition text-white text-lg sm:text-xl shrink-0"
                   title="View on GitHub"
                 >
                   <svg
-                    width={28}
-                    height={28}
+                    width={26}
+                    height={26}
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -283,15 +283,15 @@ export default function Projects() {
                 </a>
               </div>
               {/* Description - smaller font */}
-              <p className="text-gray-300 text-base mb-3 font-light">
+              <p className="text-gray-300 text-sm sm:text-base mb-3 font-light leading-relaxed">
                 {project.desc}
               </p>
               {/* Tags - smaller */}
-              <div className="flex flex-wrap gap-2 mt-2">
+              <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-3 py-0.5 rounded-full text-xs bg-[#232347] text-gray-200 font-medium shadow hover:bg-[#2078fa] hover:text-white cursor-pointer transition"
+                    className="px-2.5 sm:px-3 py-0.5 rounded-full text-[10px] sm:text-xs bg-[#232347] text-gray-200 font-medium shadow hover:bg-[#2078fa] hover:text-white cursor-pointer transition"
                   >
                     {tag}
                   </span>
@@ -302,7 +302,7 @@ export default function Projects() {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-6 px-5 py-2 rounded-lg bg-gradient-to-r from-blue-400 to-violet-500 text-white font-semibold shadow hover:from-pink-500 hover:to-blue-500 transition text-sm"
+                className="inline-block mt-5 sm:mt-6 px-4 sm:px-5 py-2 rounded-lg bg-gradient-to-r from-blue-400 to-violet-500 text-white font-semibold shadow hover:from-pink-500 hover:to-blue-500 transition text-xs sm:text-sm text-center"
               >
                 Visit Website &rarr;
               </a>
@@ -313,7 +313,7 @@ export default function Projects() {
       {!showAll && projects.length > 3 && (
         <button
           onClick={() => setShowAll(true)}
-          className="mt-12 px-8 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:bg-gradient-to-l text-white font-bold shadow-lg transition"
+          className="mt-10 sm:mt-12 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 hover:bg-gradient-to-l text-white text-sm sm:text-base font-bold shadow-lg transition"
         >
           Show More
         </button>
