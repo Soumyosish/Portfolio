@@ -1,13 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import React from "react";
+
 export default function Footer() {
   return (
     <footer
       id="5"
-      className="relative pt-10 pb-4 px-6 md:px-16 w-full bg-gradient-to-r from-[#181e2f] via-[#194353] to-[#231a44]"
+      className="relative pt-10 pb-4 px-4 sm:px-6 md:px-16 w-full bg-gradient-to-r from-[#181e2f] via-[#194353] to-[#231a44]"
     >
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center mt-10 gap-3 md:gap-0">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 gap-4 md:gap-0 text-center md:text-left">
         {/* Name on left */}
         <motion.div
           initial={{ x: -30, opacity: 0 }}
@@ -23,7 +24,7 @@ export default function Footer() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
-          className="text-white text-sm md:text-base font-medium"
+          className="text-white text-sm md:text-base font-medium break-all sm:break-normal px-2"
         >
           <a
             href="mailto:soumyosishofficial1@gmail.com"
@@ -38,7 +39,7 @@ export default function Footer() {
           initial={{ x: 30, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, type: "spring", delay: 0.2 }}
-          className="flex space-x-8"
+          className="flex flex-wrap justify-center md:justify-end gap-x-5 gap-y-2 md:gap-y-0 md:space-x-8 w-full md:w-auto"
         >
           <FooterLink href="https://github.com/soumyosish" label="GitHub" />
           <FooterLink
@@ -72,7 +73,7 @@ function FooterLink({ href, label }) {
         filter: "blur(0.2px)",
       }}
       transition={{ type: "spring", stiffness: 270, damping: 15 }}
-      className="text-gray-300 text-base font-semibold transition-colors duration-500 ease-in-out hover:text-gray-100"
+      className="text-gray-300 text-sm sm:text-base font-semibold transition-colors duration-500 ease-in-out hover:text-gray-100"
       style={{ textShadow: "none" }}
     >
       {label}
