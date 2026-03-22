@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";
 import { Navbar } from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import HeroSection from "./components/HeroSection";
@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
 import Achievements from "./components/Achievements";
-import Education from './components/Education';
+import Education from "./components/Education";
 const App = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const App = () => {
       <Skills />
       <HomePage />
       <Projects />
-      <Education/>
+      <Education />
       <Certifications />
       <Achievements />
       <Footer />

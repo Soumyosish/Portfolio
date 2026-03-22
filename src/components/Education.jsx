@@ -1,15 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import React from "react";
-import vsn from '../assets/vsn.avif'
-import lpu from '../assets/lpu.jpg'
+import vsn from "../assets/vsn.avif";
+import lpu from "../assets/lpu.jpg";
 
 const educationData = [
   {
     year: "2023-2027",
     degree: "Bachelor of Technology in CSE",
     institution: "Lovely Professional University",
-    description: "Focused on software development, algorithms, and web technologies.",
+    description:
+      "Focused on software development, algorithms, and web technologies.",
     cgpa: "7.48",
     keySkills: ["Full Stack", "Data Structures", "CS Fundamentals"],
     shadowColor: "rgba(6, 182, 212, 0.5)",
@@ -23,7 +24,8 @@ const educationData = [
     year: "2022-2023",
     degree: "Higher Secondary Education",
     institution: "Vidyasagar Shishu Niketan",
-    description: "Focused on learning core Science subjects strengthening the base of Computer Science.",
+    description:
+      "Focused on learning core Science subjects strengthening the base of Computer Science.",
     cgpa: "84.75%",
     keySkills: ["Physics", "Chemistry", "Mathematics", "Biology"],
     shadowColor: "rgba(14, 165, 233, 0.5)",
@@ -144,10 +146,14 @@ export default function Education() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.7 + idx * 0.2 }}
                   >
-                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">CGPA:</span>
-                    <span className={`font-bold text-xs sm:text-sm ${
-                      idx === 0 ? "text-cyan-300" : "text-sky-300"
-                    }`}>
+                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">
+                      CGPA:
+                    </span>
+                    <span
+                      className={`font-bold text-xs sm:text-sm ${
+                        idx === 0 ? "text-cyan-300" : "text-sky-300"
+                      }`}
+                    >
                       {edu.cgpa}
                     </span>
                   </motion.div>
@@ -159,7 +165,9 @@ export default function Education() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8 + idx * 0.2 }}
                   >
-                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">Key Skills:</span>
+                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">
+                      Key Skills:
+                    </span>
                     <div className="flex flex-wrap gap-1.5">
                       {edu.keySkills.map((skill, skillIdx) => (
                         <motion.span

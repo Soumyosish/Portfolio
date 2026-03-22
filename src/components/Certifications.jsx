@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import project from '../assets/project.png'
-import genai from '../assets/genai.png'
-import dsa from '../assets/dsa.png'
-import postman1 from '../assets/postman1.png'
-import mern from '../assets/mern.png'
-import cssbasics from '../assets/cssbasics.png'
+import project from "../assets/project.png";
+import genai from "../assets/genai.png";
+import dsa from "../assets/dsa.png";
+import postman1 from "../assets/postman1.png";
+import mern from "../assets/mern.png";
+import cssbasics from "../assets/cssbasics.png";
 
 const certifications = [
   {
@@ -61,10 +61,15 @@ const certifications = [
 
 export default function Certifications() {
   const [showAll, setShowAll] = useState(false);
-  const visibleCertifications = showAll ? certifications : certifications.slice(0, 2);
+  const visibleCertifications = showAll
+    ? certifications
+    : certifications.slice(0, 2);
 
   return (
-    <section id="4" className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center">
+    <section
+      id="4"
+      className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center"
+    >
       <motion.h2
         initial={{ opacity: 0, y: -28 }}
         animate={{ opacity: 1, y: 0 }}
@@ -94,7 +99,7 @@ export default function Certifications() {
                     src={cert.image}
                     title={cert.title}
                     className="w-full h-full"
-                    style={{ border: 'none' }}
+                    style={{ border: "none" }}
                   />
                 ) : (
                   <img
@@ -110,7 +115,9 @@ export default function Certifications() {
                 <h3 className="text-white font-bold text-xs sm:text-sm mb-1 line-clamp-2 hover:text-cyan-300 transition-colors">
                   {cert.title}
                 </h3>
-                <div className="text-gray-300 text-xs font-medium mb-0.5">{cert.issuer}</div>
+                <div className="text-gray-300 text-xs font-medium mb-0.5">
+                  {cert.issuer}
+                </div>
                 <div className="text-gray-400 text-xs mb-2">{cert.date}</div>
 
                 {/* View Certificate Button */}

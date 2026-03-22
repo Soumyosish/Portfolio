@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import holopin from '../assets/holopin.png'
-import gssoc from '../assets/gssoc.png'
-import osci from '../assets/osci.png'
-import ssoc from '../assets/ssoc.png'
+import holopin from "../assets/holopin.png";
+import gssoc from "../assets/gssoc.png";
+import osci from "../assets/osci.png";
+import ssoc from "../assets/ssoc.png";
 
 const achievements = [
   {
@@ -43,8 +43,9 @@ export default function Achievements() {
 
   return (
     <section
-    id="5"
-     className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center">
+      id="5"
+      className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center"
+    >
       <motion.h2
         initial={{ opacity: 0, y: -28 }}
         animate={{ opacity: 1, y: 0 }}

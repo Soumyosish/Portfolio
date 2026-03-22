@@ -4,9 +4,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer
-      className="relative pt-10 pb-4 px-4 sm:px-6 md:px-16 w-full bg-gradient-to-r from-[#181e2f] via-[#194353] to-[#231a44]"
-    >
+    <footer className="relative pt-10 pb-4 px-4 sm:px-6 md:px-16 w-full bg-gradient-to-r from-[#181e2f] via-[#194353] to-[#231a44]">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center mt-8 md:mt-10 gap-4 md:gap-0 text-center md:text-left">
         {/* Name on left */}
         <motion.div

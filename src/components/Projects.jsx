@@ -10,12 +10,12 @@ import guess from "../assets/guess.png";
 import jobsy from "../assets/jobsy.png";
 // import mazesolver from "../assets/mazesolver.png";
 import candy from "../assets/candy.png";
-import tommy from "../assets/tommy.png"
-import hollistic from '../assets/hollistic.png'
-import gateway from '../assets/gateway.png'
-import coffee from '../assets/coffee.png'
-import api_react from '../assets/api_react.png'
-import homedine from '../assets/homedine.png'
+import tommy from "../assets/tommy.png";
+import hollistic from "../assets/hollistic.png";
+import gateway from "../assets/gateway.png";
+import coffee from "../assets/coffee.png";
+import api_react from "../assets/api_react.png";
+import homedine from "../assets/homedine.png";
 const projects = [
   // {
   //   name: "Alpha Safari",
@@ -72,13 +72,7 @@ const projects = [
     desc: "A modern React SPA built with Vite that demonstrates real-world API integration, client-side routing, reusable components, and polished UI patterns, showcasing best practices for building scalable React applications.",
     image: api_react,
     link: "https://api-react-nine-iota.vercel.app/",
-    tags: [
-      "React",
-      "BootStrap",
-      "Responsive Design",
-      "React Icons",
-      'APIs'
-    ],
+    tags: ["React", "BootStrap", "Responsive Design", "React Icons", "APIs"],
     github: "https://github.com/Soumyosish/API-React",
     shadowColor: "rgba(255, 255, 255, 0.7)",
   },
@@ -137,12 +131,7 @@ const projects = [
     desc: "A modern, responsive coffee shop website showcasing premium coffee offerings, gallery, and contact features. Built with clean HTML, CSS, and JavaScript. Expressing the love of people towards coffee depicting their part of everyday's life reluctantly impressive with rich hopes among everyone.",
     image: coffee,
     link: "https://expresso-moment.vercel.app/",
-    tags: [
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "JS"
-    ],
+    tags: ["HTML", "CSS", "Responsive Design", "JS"],
     github: "https://github.com/Soumyosish/Expresso-Moment",
     shadowColor: "rgba(255, 210, 150, 1)",
   },
@@ -151,12 +140,7 @@ const projects = [
     desc: "Gateway to the East describes the tourism for Bengal with animated cards, destination highlights, and smooth section navigation making it align with the rich culture and diversity of the state attracting various tourists from all over the world",
     image: gateway,
     link: "https://gateway-to-the-east.vercel.app/",
-    tags: [
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "JS"
-    ],
+    tags: ["HTML", "CSS", "Responsive Design", "JS"],
     github: "https://github.com/Soumyosish/Gateway-to-the-East",
     shadowColor: "rgba(255, 255, 180, 1)",
   },
