@@ -76,7 +76,7 @@ export function Navbar() {
     { label: "About", href: "#2" },
     { label: "Projects", href: "#3" },
     { label: "Certifications", href: "#4" },
-    { label: "Contact Me", href: "#5" },
+    { label: "Achievements", href: "#5" },
   ];
 
   const scrollToId = (id) => {

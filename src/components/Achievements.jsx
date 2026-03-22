@@ -42,7 +42,9 @@ export default function Achievements() {
   const visibleAchievements = showAll ? achievements : achievements.slice(0, 2);
 
   return (
-    <section className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center">
+    <section
+    id="5"
+     className="w-full py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-10 flex flex-col items-center">
       <motion.h2
         initial={{ opacity: 0, y: -28 }}
         animate={{ opacity: 1, y: 0 }}
