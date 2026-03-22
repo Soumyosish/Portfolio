@@ -49,7 +49,7 @@ export default function Education() {
           initial={{ opacity: 0, y: -28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4"
+          className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white mb-4"
         >
           Education
         </motion.h2>
@@ -97,7 +97,7 @@ export default function Education() {
                 <div className="p-6 sm:p-8 md:p-10 flex flex-col justify-center flex-1">
                   {/* Year */}
                   <motion.div
-                    className={`font-bold text-base sm:text-lg mb-3 ${
+                    className={`font-bold text-sm sm:text-base mb-2 ${
                       idx === 0 ? "text-cyan-300" : "text-sky-300"
                     }`}
                     initial={{ opacity: 0 }}
@@ -109,7 +109,7 @@ export default function Education() {
 
                   {/* Degree */}
                   <motion.h3
-                    className="text-white font-bold text-xl sm:text-2xl md:text-3xl mb-3 uppercase tracking-wide"
+                    className="text-white font-bold text-lg sm:text-xl mb-2 uppercase tracking-wide"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4 + idx * 0.2 }}
@@ -119,7 +119,7 @@ export default function Education() {
 
                   {/* Institution */}
                   <motion.p
-                    className="text-gray-200 italic text-sm sm:text-base mb-4"
+                    className="text-gray-200 italic text-xs sm:text-sm mb-3"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5 + idx * 0.2 }}
@@ -129,7 +129,7 @@ export default function Education() {
 
                   {/* Description */}
                   <motion.p
-                    className="text-gray-300 text-sm sm:text-base leading-relaxed mb-4"
+                    className="text-gray-300 text-xs sm:text-sm leading-relaxed mb-3"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.6 + idx * 0.2 }}
@@ -139,13 +139,13 @@ export default function Education() {
 
                   {/* CGPA */}
                   <motion.div
-                    className="flex items-center gap-2 mb-4"
+                    className="flex items-center gap-2 mb-3"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.7 + idx * 0.2 }}
                   >
-                    <span className="text-gray-200 font-semibold text-sm sm:text-base">CGPA:</span>
-                    <span className={`font-bold text-sm sm:text-base ${
+                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">CGPA:</span>
+                    <span className={`font-bold text-xs sm:text-sm ${
                       idx === 0 ? "text-cyan-300" : "text-sky-300"
                     }`}>
                       {edu.cgpa}
@@ -154,17 +154,17 @@ export default function Education() {
 
                   {/* Key Skills */}
                   <motion.div
-                    className="flex flex-col gap-2"
+                    className="flex flex-col gap-1.5"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8 + idx * 0.2 }}
                   >
-                    <span className="text-gray-200 font-semibold text-sm sm:text-base">Key Skills:</span>
-                    <div className="flex flex-wrap gap-2">
+                    <span className="text-gray-200 font-semibold text-xs sm:text-sm">Key Skills:</span>
+                    <div className="flex flex-wrap gap-1.5">
                       {edu.keySkills.map((skill, skillIdx) => (
                         <motion.span
                           key={skillIdx}
-                          className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium transition-all ${
+                          className={`px-2 sm:px-3 py-1 rounded-full text-xs font-medium transition-all ${
                             idx === 0
                               ? "bg-cyan-500/25 border border-cyan-400/50 text-white hover:bg-cyan-500/40 hover:border-cyan-300/80"
                               : "bg-sky-500/25 border border-sky-400/50 text-white hover:bg-sky-500/40 hover:border-sky-300/80"
