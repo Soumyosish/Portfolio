@@ -32,8 +32,8 @@ This project is a full-featured responsive portfolio showcasing various sections
 
 1. Clone the repository  
     ```
-    git clone <repository-url>
-    cd <project-folder>
+    git clone https://github.com/Soumyosish/Portfolio.git
+    cd Portfolio
     ```
 
 2. Install dependencies  
