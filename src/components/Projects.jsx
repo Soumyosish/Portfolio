@@ -3,12 +3,12 @@ import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import bengalfusion from "../assets/bengalfusion.png";
-// import alphasafari from "../assets/alphasafari.png";
+import alphasafari from "../assets/alphasafari.png";
 import insticgpa from "../assets/insticgpa.png";
 import vayu from "../assets/vayu.png";
 import guess from "../assets/guess.png";
 import jobsy from "../assets/jobsy.png";
-// import mazesolver from "../assets/mazesolver.png";
+import mazesolver from "../assets/mazesolver.png";
 import candy from "../assets/candy.png";
 import tommy from "../assets/tommy.png";
 import hollistic from "../assets/hollistic.png";
@@ -17,26 +17,26 @@ import coffee from "../assets/coffee.png";
 import api_react from "../assets/api_react.png";
 import homedine from "../assets/homedine.png";
 const projects = [
-  // {
-  //   name: "Alpha Safari",
-  //   desc: "Alpha Safari is an interactive Virtual Zoo designed to help students learn the alphabet by exploring various animals, their names, and detailed information.",
-  //   image: alphasafari,
-  //   link: "https://alpha-safari.vercel.app/",
-  //   tags: [
-  //     "React",
-  //     "Styled Component",
-  //     "Node.js",
-  //     "Express",
-  //     "MongoDB",
-  //     "Framer Motion",
-  //     "JWT",
-  //     "Nodemailer",
-  //     "Responsive Design",
-  //     "Full Stack",
-  //   ],
-  //   github: "https://github.com/Soumyosish/AlphaSafari",
-  //   shadowColor: "rgba(34,197,94,0.7)",
-  // },
+  {
+    name: "Alpha Safari",
+    desc: "Alpha Safari is an interactive Virtual Zoo designed to help students learn the alphabet by exploring various animals, their names, and detailed information.",
+    image: alphasafari,
+    link: "https://alpha-safari.vercel.app/",
+    tags: [
+      "React",
+      "Styled Component",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Framer Motion",
+      "JWT",
+      "Nodemailer",
+      "Responsive Design",
+      "Full Stack",
+    ],
+    github: "https://github.com/Soumyosish/AlphaSafari",
+    shadowColor: "rgba(34,197,94,0.7)",
+  },
   {
     name: "Home Dine",
     desc: "HomeDine is a full-stack ecommerce web application focused on quality kitchen and home products for every home.",
@@ -58,15 +58,15 @@ const projects = [
     github: "https://github.com/Soumyosish/HomeDine",
     shadowColor: "rgba(255, 253, 208, 1)",
   },
-  // {
-  //   name: "Maze Solver Visualizer",
-  //   desc: "A modern, interactive maze generator and pathfinding visualizer to Explore classic algorithms with smooth animations, a glassmorphism UI, and a live complexity panel.",
-  //   image: mazesolver,
-  //   link: "https://bhul-bhulaya.vercel.app/",
-  //   tags: ["HTML", "Tailwind CSS", "JS", "Express", "Node.js"],
-  //   github: "https://github.com/Soumyosish/BhulBhulaya",
-  //   shadowColor: "rgba(59, 130, 246, 1)",
-  // },
+  {
+    name: "Maze Solver Visualizer",
+    desc: "A modern, interactive maze generator and pathfinding visualizer to Explore classic algorithms with smooth animations, a glassmorphism UI, and a live complexity panel.",
+    image: mazesolver,
+    link: "https://bhul-bhulaya.vercel.app/",
+    tags: ["HTML", "Tailwind CSS", "JS", "Express", "Node.js"],
+    github: "https://github.com/Soumyosish/BhulBhulaya",
+    shadowColor: "rgba(59, 130, 246, 1)",
+  },
   {
     name: "API React",
     desc: "A modern React SPA built with Vite that demonstrates real-world API integration, client-side routing, reusable components, and polished UI patterns, showcasing best practices for building scalable React applications.",
